@@ -46,14 +46,15 @@ body{
 /**/
 
 /**/
-#secao1 img{
+#foto1{
     min-height: 400px;
     height: 40vw;
     margin-bottom: 50px;
 }
 #secao1{
     display: flex;
-    background-image: url(imagem/bg1.jpg);
+    /* background-image: url(imagem/bg1.jpg); */
+    background-image: url(imagem/vapi.jpg);
     background-size: cover;
     justify-content: center;
     padding-top: 60px;
@@ -64,14 +65,200 @@ body{
 }
 #formulario{
     min-width: 300px;
-    min-height: 400px;
+    min-height: 520px;
     max-width: 300px;
-    max-height: 400px;
-    background-color: var(--cinza_escuro);
-    backdrop-filter: blu(10px);
+    max-height: 520px;
+    background-color: #48433b89;
+    backdrop-filter: blur(10px);
     border: 1px solid var(--dourado);
     padding: 40px;
+    margin-right: 80px;
 }
 
+@media screen and (max-width:1024px){
+    #formulario{
+        margin: auto;
+    }
+    #foto2{
+        margin-right: 0px;
+    
+    }
+}
+
+#logomarca2{
+    height: 80px;
+    
+}
+#formulario h1{
+    font-family: var(--titulos);
+    color: var(--dourado);
+    text-transform: uppercase;/*deixa o texto maiusculo JYYUFFYF*/
+    font-size: 25px;
+}
+#formulario p{
+    color: var(--branco);
+    font-size: 14px;
+    text-align: justify;
+
+}
+#formulario input{
+    background-color: rgb(91, 93, 93);
+    border: none;
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    color: var(--branco);
+
+}
+#formulario button{
+    width: 101%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--dourado);
+    color: var(--branco);
+    border: none;
+    outline: none;
+    font-weight: 800;
+    margin-top: 5px;
+
+}
+/**/
+#secao2{
+    background-color: var(--preto);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;/*vai para baixo*/ 
+
+}
+.cartoes{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 80px;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    background-color: var(--cinza_escuro);
+    border: 1px solid var(--dourado);
+    color: var(--branco);
+}
+.icones{
+    background-color: var(--dourado);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: -55px;
+}
+#secao2 h4{
+    color: var(--dourado);
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+/**/
+#secao3{
+    background-color: var(--cinza_escuro);
+    border-top: 1px solid var(--dourado);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--branco);
+
+}
+#foto2{
+    min-height: 400px;
+    height: 35vw;
+    margin-bottom: 60px;
+    margin-right: 100px;
+
+}
+#conteudo3{
+    min-width: 500px;
+    width: 40vw;
+
+
+}
+.verificado{
+    display: flex;
+}
+.icones2{
+    background-color: var(--dourado);
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-right: 10px;
+    
+}
+#conteudo3 p{
+    margin-top: -7px;
+}
+#conteudo3 h1{
+    color: var(--dourado);
+    font-family: var(--titulos);
+}
+#secao4{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--dourado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#secao4 h1{
+    font-family: var(--titulos);
+    text-transform: uppercase;
+    width: 70%;
+    text-align: center;
+    font-weight: 800;
+
+}
+#secao4 p{
+    font-size: 25px;
+    text-align: center;
+
+}
+#secao4 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#secao4 input{
+    min-width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px; 
+    margin-bottom: 20px;
+    
+}
+#secao4 button{
+    min-width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--cinza_escuro);
+    color: var(--branco);
+    border: none;
+    margin-bottom: 20px;
+}
 
 /**/
